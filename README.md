@@ -1,5 +1,7 @@
 # audio-ml
 
+The is an audio classification project. The goal is to use a pretrained model (YAMNet or VGGish) along with a Sequential model to classify the animal noise in an input .wav file. The ESC-50 dataset is used for training and testing; this is the most popular dataset for Environmental Sound Classification (ESC).
+
 **Working Notebooks:**
 - **yamnet original.ipynb:** YAMNet model into a Sequential model
   - accuracy ~93%
